@@ -1,0 +1,12 @@
+description: Detect hosts with unusually high DNS queries per IP
+detection:
+  condition: selection
+  selection:
+    queries_per_ip:
+      min: 3491
+id: dns-excess-queries-baseline
+level: high
+logsource:
+  product: zeek
+  service: dns
+title: Excessive DNS Queries Per Host
