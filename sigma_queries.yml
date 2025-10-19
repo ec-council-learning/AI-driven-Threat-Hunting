@@ -1,0 +1,16 @@
+title: High DNS query volume (cluster-derived p95)
+id: cluster-derived-high-queries
+status: experimental
+description: Alert when queries in an aggregation exceed the cluster-derived threshold
+  (p95).
+logsource:
+  product: zeek
+  service: dns
+detection:
+  selection:
+    queries:
+      gte: 1119.4
+  condition: selection
+falsepositives:
+- Bursts from CDNs/resolvers
+level: medium

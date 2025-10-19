@@ -1,0 +1,20 @@
+title: Anomalous DNS source IPs (cluster-derived)
+id: cluster-derived-anom-ips
+status: experimental
+description: Alert when source IP matches IPs flagged as anomalous by DBSCAN offline
+  job.
+logsource:
+  product: zeek
+  service: dns
+detection:
+  selection:
+    source.ip:
+    - 192.168.56.1
+    - 192.168.56.2
+    - 192.168.56.3
+    - fe80::3aca:a7f1:9332:a384
+    - fe80::b6e0:cf17:dce3:e507
+  condition: selection
+falsepositives:
+- Known legitimate resolvers, scanning infrastructure
+level: high

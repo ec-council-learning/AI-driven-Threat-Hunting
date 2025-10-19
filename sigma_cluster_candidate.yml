@@ -1,0 +1,22 @@
+title: Unusual Activity (Cluster-derived thresholds)
+id: cluster-derived-unusual-activity
+status: experimental
+description: Detect points consistent with rare-event clusters (high volume / entropy
+  / failures).
+logsource:
+  product: zeek
+  service: dns
+detection:
+  selection:
+    queries:
+      min: 1119.4
+    mean_entropy:
+      min: 3.759
+    failed_ratio:
+      min: 0.0
+    rows:
+      min: 1119.4
+  condition: selection
+falsepositives:
+- Legitimate resolvers, CDN/update bursts
+level: high

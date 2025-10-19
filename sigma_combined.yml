@@ -1,0 +1,22 @@
+title: Cluster-derived DNS anomalies (IP list OR volume)
+id: cluster-derived-combined
+status: experimental
+description: 'Combined rule: source IP in offline-anom-list OR queries exceed p95.'
+logsource:
+  product: zeek
+  service: dns
+detection:
+  selection_ip:
+    source.ip:
+    - 192.168.56.1
+    - 192.168.56.2
+    - 192.168.56.3
+    - fe80::3aca:a7f1:9332:a384
+    - fe80::b6e0:cf17:dce3:e507
+  selection_q:
+    queries:
+      gte: 1119.4
+  condition: selection_ip or selection_q
+falsepositives:
+- Legit bursts, resolvers
+level: high
