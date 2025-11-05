@@ -1,0 +1,95 @@
+---
+title: Suspicious Certutil Download (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+Image|endswith: '\\cmd.exe'\n        CommandLine|contains|all:\n          - 'certutil'\n          - 'http'
+  condition: selection
+level: high
+
+---
+title: MSHTA with Remote URL (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+Image|endswith: '\\mshta.exe'\n        CommandLine|contains: 'http'
+  condition: selection
+level: high
+
+---
+title: PowerShell EncodedCommand (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+Image|endswith: '\\powershell.exe'\n        CommandLine|contains: '-EncodedCommand'
+  condition: selection
+level: high
+
+---
+title: WinWord Spawns PowerShell (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+ParentImage|endswith: '\\WINWORD.EXE'\n        Image|endswith: '\\powershell.exe'
+  condition: selection
+level: high
+
+---
+title: BITSAdmin File Transfer (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+CommandLine|contains: 'bitsadmin'
+  condition: selection
+level: high
+
+---
+title: PowerShell ExecutionPolicy Bypass (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+Image|endswith: '\\powershell.exe'\n        CommandLine|contains|all:\n          - 'executionpolicy'\n          - 'bypass'
+  condition: selection
+level: high
+
+---
+title: PowerShell Executes PS1 from Downloads (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+Image|endswith: '\\powershell.exe'\n        CommandLine|contains|all:\n          - '\\Users\\'\n          - '\\Downloads\\'\n          - '.ps1'
+  condition: selection
+level: high
+
+---
+title: Explorer Spawns PowerShell (WeakSup Seed)
+status: experimental
+logsource:
+  product: windows
+  category: process_creation
+detection:
+  selection:
+ParentImage|endswith: '\\explorer.exe'\n        Image|endswith: '\\powershell.exe'
+  condition: selection
+level: high

